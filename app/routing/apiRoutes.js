@@ -1,15 +1,15 @@
-
+// Pulls the data from friends.js file.
 var friends = require("../data/friends");
 
 
 
 module.exports = function (app) {
 
-
+  //method that gets the information from friends.js
   app.get("/api/friends", function (req, res) {
     res.json(friends);
   });
-
+    //method post where information of best match
   app.post("/api/friends", function (req, res) {
     var bestMatch = {
       name: "",
@@ -18,7 +18,7 @@ module.exports = function (app) {
     }
     var userData = req.body;
     var userScores = userData.scores;
-    //this var will cala the diff between the usersscores and the scores of each user in the database
+    //this var will calc the diff between the user scores and the scores of each user in the database
     var totalDifference;
     for (var i = 0; i < friends.length; i++) {
       var currentFriend = friends[i];
@@ -34,15 +34,15 @@ module.exports = function (app) {
         bestMatch.friendDifference = totalDifference;
       }
     }
-    friends.push(userData);
+    friends.push(userData); //Once calc are complete method push to move data
     res.json(bestMatch)
 
   });
 
 
-
+  //Method Post if info matches criteria, ELSE Method PUSH false
   app.post("/api/tables", function (req, res) {
-
+    
     if (tableData.length < 5) {
       tableData.push(req.body);
       res.json(true);

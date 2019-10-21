@@ -1,3 +1,5 @@
+//table array of users/scores that will match up with new users
+
 var tableArray = [
 {
     name:"Charlie",
@@ -98,5 +100,5 @@ var tableArray = [
 
 
 ]
-
+  
   module.exports = tableArray; 

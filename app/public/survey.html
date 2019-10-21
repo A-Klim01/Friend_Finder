@@ -209,7 +209,7 @@
       $(selector).chosen(config[selector]);
     }
 
-    
+    //submit button when clicked
     $("#submit").on("click", function(event) {
       event.preventDefault();
 
@@ -233,7 +233,7 @@
 
       
       if (validateForm()) {
-        
+        //user data and holds the "value/answers to questions"
         var userData = {
           name: $("#name").val(),
           photo: $("#photo").val(),
@@ -251,7 +251,7 @@
           ]
         };
 
-        
+        //post method to api friends/user data
         $.post("/api/friends", userData, function(data) {
 
           
