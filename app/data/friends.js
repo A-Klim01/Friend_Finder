@@ -3,6 +3,7 @@
 var tableArray = [
 {
     name:"Charlie",
+    photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiqnZnt5rrmAhWEKs0KHQDnDrwQjRx6BAgBEAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCharlie_Brown&psig=AOvVaw0tZxlzMoIME1At7l2AcqHH&ust=1576607524174339",
     photo:"",
     scores:[
         2,
