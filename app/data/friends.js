@@ -20,7 +20,7 @@ var tableArray = [
   },
   {
     name:"Stephanie",
-    photo:"",
+    photo:"https://www.pexels.com/photo/women-s-yellow-long-sleeved-dress-1055691/",
     scores:[
         5,
         4,
