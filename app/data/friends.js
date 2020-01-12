@@ -3,8 +3,7 @@
 var tableArray = [
 {
     name:"Charlie",
-    photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiqnZnt5rrmAhWEKs0KHQDnDrwQjRx6BAgBEAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCharlie_Brown&psig=AOvVaw0tZxlzMoIME1At7l2AcqHH&ust=1576607524174339",
-    photo:"",
+    photo:"https://www.ghttps://unsplash.com/photos/0_G9UHXy39",
     scores:[
         2,
         4,
@@ -20,7 +19,7 @@ var tableArray = [
   },
   {
     name:"Stephanie",
-    photo:"https://www.pexels.com/photo/women-s-yellow-long-sleeved-dress-1055691/",
+    photo: "https://unsplash.com/photos/_dH-oQF9w-Y",
     scores:[
         5,
         4,
