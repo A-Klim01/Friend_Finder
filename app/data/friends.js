@@ -83,7 +83,7 @@ var tableArray = [
   },
   {
     name:"Meghan",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"https://unsplash.com/photos/f480QIEvwGI",
     scores:[
         3,
         1,
